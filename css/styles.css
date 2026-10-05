@@ -467,6 +467,17 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   margin-bottom: 30px;
 }
 .hero__title em { display: inline; }
+.hero__kicker {
+  display: block;
+  margin-bottom: 18px;
+  font-family: var(--sans);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: .22em;
+  text-transform: uppercase;
+  line-height: 1.4;
+  color: var(--gold);
+}
 .hero__lead {
   font-size: clamp(16.5px, 1.35vw, 18.5px);
   color: var(--muted-d);
